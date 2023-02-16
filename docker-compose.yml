@@ -1,0 +1,7 @@
+services:
+  example-smart-app:
+    container_name: example-smart-app
+    build:
+      context: .
+    ports:
+      - "8800:80"
